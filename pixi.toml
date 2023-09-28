@@ -1,0 +1,24 @@
+[project]
+name = "manipulation"
+version = "0.1.0"
+description = "Add a short description here"
+authors = ["JafarAbdi <jafar.uruc@gmail.com>"]
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[tasks]
+setup = "pip install -U drake"
+
+[dependencies]
+scipy = "1.11.2.*"
+matplotlib = "3.8.0.*"
+pip = "23.2.1.*"
+tqdm = "4.66.1.*"
+notebook = "7.0.4.*"
+numpy = "1.26.0.*"
+jupyter = "1.0.0.*"
+pandas = "2.1.1.*"
+ipympl = "0.9.3.*"
+jupyter-lsp = "2.2.0.*"
+moviepy = "1.0.3.*"
+gymnasium = "0.28.1.*"
