@@ -7,6 +7,12 @@ pixi install
 pixi run setup
 ```
 
+## Usage
+
+```bash
+pixi run notebook NAME.ipynb
+```
+
 ## Resources
 
 - [Course Website](https://manipulation.csail.mit.edu/Fall2023/index.html)
