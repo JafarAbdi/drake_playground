@@ -1,0 +1,3 @@
+[submodule "manipulation"]
+	path = manipulation
+	url = git@github.com:RussTedrake/manipulation.git
