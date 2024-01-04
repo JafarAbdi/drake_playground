@@ -23,7 +23,10 @@ ipympl = "0.9.3.*"
 jupyter-lsp = "2.2.0.*"
 moviepy = "1.0.3.*"
 gymnasium = "0.28.1.*"
-python = "3.11.5.*"
+python = "3.10.*"
 
 [activation]
 scripts = ["env_setup.sh"]
+
+# [pypi-dependencies]
+# drake = "*"
