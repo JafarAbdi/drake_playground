@@ -1,3 +1,6 @@
 [submodule "manipulation"]
 	path = manipulation
 	url = git@github.com:RussTedrake/manipulation.git
+[submodule "underactuated"]
+	path = underactuated
+	url = git@github.com:RussTedrake/underactuated.git
