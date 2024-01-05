@@ -3685,6 +3685,28 @@ package:
   size: 490594
   timestamp: 1695653693859
 - platform: linux-64
+  name: mpld3
+  version: 0.5.10
+  category: main
+  manager: conda
+  dependencies:
+  - jinja2
+  - matplotlib-base
+  - python >=3.6
+  url: https://conda.anaconda.org/conda-forge/noarch/mpld3-0.5.10-pyhd8ed1ab_0.conda
+  hash:
+    md5: 157ac92e8157f841b445f4a473b3281a
+    sha256: c5df3b1859dd88d7d4acda515292e28908ff4d23a85f8abcd720bb240c8c04ce
+  build: pyhd8ed1ab_0
+  arch: x86_64
+  subdir: linux-64
+  build_number: 0
+  license: BSD-3-Clause
+  license_family: BSD
+  noarch: python
+  size: 175893
+  timestamp: 1703344518886
+- platform: linux-64
   name: munkres
   version: 1.1.4
   category: main

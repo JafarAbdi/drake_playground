@@ -7,7 +7,10 @@ channels = ["conda-forge"]
 platforms = ["linux-64"]
 
 [tasks]
-setup = "pip install -U drake"
+# setup-underactuated = "pip install -r underactuated/jammy-requirements.txt"
+# setup-manipulation = "pip install -r manipulation/jammy-requirements.txt"
+# setup = { cmd = "pip install -U drake", depends_on = ["setup-underactuated", "setup-manipulation"] }
+setup = { cmd = "pip install -U drake" }
 notebook = "jupyter notebook"
 
 [dependencies]
@@ -24,6 +27,7 @@ jupyter-lsp = "2.2.0.*"
 moviepy = "1.0.3.*"
 gymnasium = "0.28.1.*"
 python = "3.10.*"
+mpld3 = ">=0.5.10,<0.6"
 
 [activation]
 scripts = ["env_setup.sh"]
